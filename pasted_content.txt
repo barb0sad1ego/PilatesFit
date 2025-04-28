@@ -1,0 +1,133 @@
+Projeto: Desenvolvimento do app PilatesFit.
+
+Descrição resumida:
+Criar um aplicativo de Pilates na parede baseado em desafios de 7 e 28 dias, focado em estética corporal, flexibilidade e bem-estar. O app deve ser multilíngue, ter login pós-compra, painel admin para gerenciar conteúdo e visual limpo, moderno e aspiracional.
+
+🛠️ Funcionalidades obrigatórias
+1. Tela de Boas-vindas
+Exibe o logo PilatesFit em lilás (#A675F5).
+
+Detecção automática do idioma baseado no idioma do dispositivo (navigator.language).
+
+Opção para selecionar manualmente o idioma (Português, Espanhol, Francês, Inglês).
+
+Idioma escolhido deve ser salvo no perfil do usuário.
+
+2. Cadastro/Login
+Cadastro e login via e-mail e senha (usar Supabase Auth).
+
+Acesso liberado apenas para usuários cujo e-mail consta na tabela authorized_emails no Supabase.
+
+Integração de Webhook com a plataforma de checkout (Cartpanda) para receber os compradores.
+
+Recuperação de senha por e-mail.
+
+3. Home (Dashboard)
+Exibir os desafios disponíveis como cards visuais:
+
+Desafio de 28 Dias
+
+Desafio de 7 Dias
+
+Cada card deve mostrar:
+
+Imagem personalizada do desafio (thumbnail clean e feminina)
+
+Título do desafio
+
+Breve descrição
+
+Botão “Iniciar Desafio”
+
+4. Tela de Aula
+Exibe o vídeo do dia embedado (via link do YouTube ou hospedagem própria).
+
+Botão para marcar como concluído o treino do dia.
+
+Avançar ou voltar dias manualmente.
+
+5. Tela de Progresso
+Exibe barra de progresso de cada desafio.
+
+Mostra percentuais e dias concluídos.
+
+Exibe distintivos de conquista (Ex: "Completou 7 dias!", "Completou 28 dias!").
+
+6. Tela de Materiais
+Exibir materiais complementares em PDF (Planos alimentares, receitas, etc).
+
+Permitir visualização dos PDFs dentro do app (in-app viewer).
+
+Separação dos materiais por idioma.
+
+7. Painel Administrativo (restrito a admin)
+Acesso apenas para usuários com role: admin.
+
+Abas "Aulas" e "Materiais".
+
+Gerenciar Aulas:
+
+Adicionar, editar e excluir vídeos.
+
+Campos: Título, Dia, Categoria (Desafio 7/28/Bônus), Link do vídeo, Idioma.
+
+Gerenciar Materiais:
+
+Adicionar, editar e excluir materiais.
+
+Campos: Título, Descrição, URL do PDF, Idioma.
+
+Filtro e busca por título, categoria e idioma.
+
+8. Notificações Push (futuro)
+Implementar sistema de envio de push motivacional para usuários ativos.
+
+🎨 Design do App
+Estilo clean, feminino, moderno.
+
+Cores principais:
+
+Lilás (#A675F5)
+
+Verde água (#A1F0DD) para detalhes
+
+Branco (#FFFFFF) fundo
+
+Cinza claro (#F3F3F3) para separadores
+
+Tipografia sugerida: Poppins ou Inter.
+
+Ícones minimalistas e suaves.
+
+Inputs e botões arredondados (border radius: 12px).
+
+🌍 Idiomas
+Multilíngue nativo: BR (pt-BR), ES (es-ES), FR (fr-FR), EN (en-US).
+
+Detecção automática + troca manual no app.
+
+🔐 Segurança e Controle de Acesso
+Login obrigatório para acesso às aulas e materiais.
+
+Verificação se o e-mail do usuário existe na tabela authorized_emails.
+
+Funções administrativas bloqueadas para usuários comuns.
+
+🔗 Integrações
+Supabase Auth para login e gerenciamento de usuários.
+
+Supabase Database para armazenar vídeos, materiais e progresso.
+
+Resend API (ou outro serviço SMTP) para envio automático de e-mails de boas-vindas após compra.
+
+Cartpanda Webhook para inserção automática de compradores.
+
+🚀 Objetivo final do app PilatesFit
+Escalar o produto para Brasil, LATAM e Europa.
+
+Oferecer desafios completos de Pilates na parede com uma experiência fluida, elegante e altamente profissional.
+
+✨ Obs:
+Dar prioridade para performance e fluidez do app, já que a maioria dos usuários será de dispositivos móveis.
+
+Ideal que o app esteja pronto para ser publicado futuramente na App Store e Play Store.

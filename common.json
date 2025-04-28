@@ -1,0 +1,73 @@
+{
+  "welcome": {
+    "title": "Bem-vindo ao PilatesFit",
+    "subtitle": "Seu aplicativo de Pilates na parede",
+    "language_selection": "Selecione seu idioma",
+    "continue": "Continuar"
+  },
+  "auth": {
+    "login": "Entrar",
+    "register": "Cadastrar",
+    "email": "E-mail",
+    "password": "Senha",
+    "forgot_password": "Esqueceu sua senha?",
+    "reset_password": "Recuperar senha",
+    "login_success": "Login realizado com sucesso!",
+    "login_error": "Erro ao fazer login. Verifique suas credenciais."
+  },
+  "dashboard": {
+    "title": "Meus Desafios",
+    "challenge_7days": "Desafio de 7 Dias",
+    "challenge_28days": "Desafio de 28 Dias",
+    "start_challenge": "Iniciar Desafio",
+    "continue_challenge": "Continuar Desafio",
+    "your_progress": "Seu Progresso"
+  },
+  "class": {
+    "day": "Dia",
+    "mark_completed": "Marcar como concluído",
+    "previous_day": "Dia anterior",
+    "next_day": "Próximo dia",
+    "congratulations": "Parabéns por completar esta aula!"
+  },
+  "progress": {
+    "title": "Meu Progresso",
+    "completed": "Concluído",
+    "days_completed": "Dias concluídos",
+    "achievement": "Conquista",
+    "achievements": "Conquistas"
+  },
+  "materials": {
+    "title": "Materiais",
+    "meal_plans": "Planos alimentares",
+    "recipes": "Receitas",
+    "bonus": "Materiais bônus"
+  },
+  "admin": {
+    "title": "Painel Administrativo",
+    "classes": "Aulas",
+    "materials": "Materiais",
+    "add": "Adicionar",
+    "edit": "Editar",
+    "delete": "Excluir",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "class_title": "Título da aula",
+    "day": "Dia",
+    "category": "Categoria",
+    "video_link": "Link do vídeo",
+    "language": "Idioma",
+    "material_title": "Título do material",
+    "description": "Descrição",
+    "pdf_url": "URL do PDF"
+  },
+  "common": {
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "loading": "Carregando...",
+    "error": "Erro",
+    "success": "Sucesso",
+    "confirm": "Confirmar",
+    "back": "Voltar"
+  }
+}
